@@ -49,12 +49,10 @@ body {
     
     height: 500px;
     margin-top: 5vw;
+    margin-left: -2.5%;
     display: flex;
     justify-content: center;
     position: absolute;
     width: 50%;
-    
-    
-    
 
 }
