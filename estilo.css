@@ -45,6 +45,16 @@ body {
     padding: 10px 20px;
     transition: ease-in .3s;
 }
-.brand{
+.image{
+    
+    height: 500px;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 50%;
+    
+    
+    
 
 }

@@ -10,12 +10,41 @@
 </head>
 <body>
 
+    
     <div class="wrapper">
         <header>
+            
             <nav class="navbar">
+                
                 <div class="brand">
-                    <h1>I<span>C</span></h1>
+                    
+                    <h1>I<span>T</span></h1>
                 </div>
+                <script>
+
+                    var i = 0;
+                    var imagenes = [];
+                    var time = 3000;
+            
+                    imagenes[0] = 'imagen1.jpg'
+                    imagenes[1] = 'imagen2.jpg'
+                    imagenes[2] = 'imagen3.jpg'
+            
+                    function cambiar(){
+                        document.slide.src = imagenes[i];
+            
+                        if(i < imagenes.length -1){
+                            i++;
+                        }else {
+                            i = 0;
+                        }
+                        setTimeout("cambiar()", time);
+                    }
+            
+                    window.onload = cambiar;
+            
+                </script>
+               <div><img name="slide" class="image"></div> 
                 <ul class="menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre Nosotros</a></li>
@@ -24,6 +53,8 @@
             </nav>
         </header>
     </div>
+
+   
   
 </body>
 </html>
