@@ -68,6 +68,28 @@
     padding: 10px 20px;
     transition: ease-in .3s;
 }
+.main{
+    margin-top: 55%;
+    width: 80vw;
+    margin-left: 5vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:repeat(2.1fr);
+    
+}
+span{
+    color: aqua;
+}
+.info{
+    margin-left: 50vw;
+}
+
+.facha{
+    margin-left: -50vw;
+    margin-top: -25vw;
+    width: 35vw;
+}
+
 
 .slider{
     justify-content: center; 
@@ -152,6 +174,8 @@
   #radio3:checked ~ .navigation-auto .auto-btn3{
     background: #40D3DC;
   }
+  
+
   
  
         
