@@ -33,14 +33,17 @@
   font-weight: 600;
   border-radius: 8px;
 }
-
-
-
 .wrapper{
     width: 100vw;
     height: 100vw;
     background-color: #191c32;
     color: #ffff;
+}
+.contacto{
+  width: 100vw;
+  height: 50vw;
+  background-color: #191c32;
+  color: #ffff;
 }
 .navbar{
     display: flex;
@@ -88,8 +91,9 @@ span{
 
 .facha{
     margin-left: -50vw;
-    margin-top: -25vw;
+    margin-top: -15vw;
     width: 35vw;
+    border: 7px solid aqua;
 }
 
 
@@ -176,6 +180,115 @@ span{
   #radio3:checked ~ .navigation-auto .auto-btn3{
     background: #40D3DC;
   }
+  .about{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+  .about img{
+    width: 100%;
+    
+    grid-column: 1/5;
+    
+  }
+  .sobre-info{
+    grid-column: 5/10;
+    padding: 3em;
+  }
+
+  .sobre-info h2{
+    font-size: 2em;
+    color: #191c32;
+    }
+
+  .divider{
+    height: 4px;
+    width: 20vw;
+    background-color:aqua ;
+    margin-top: 5px;
+    margin-bottom: 2.5em;
+  }
+  .about p{
+    margin-bottom: 2em;
+  }
+  .contactos h2{
+    font-size: 3em;
+  }
+  .contacto{
+    padding: 3em;
+    margin: 0 auto;
+  }
+  .control{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+  }
+  .control input{
+    padding: 10px 20px;
+    margin-bottom: 1.5em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+  .control textarea{
+    height: 30vh;
+    background: none;
+    color: white;
+    padding: 1.5em;
+    border: 1px solid white;
+  }
+  .btn-enviar{
+    padding: 1vw 10vw;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .btn-enviar:hover{
+    background-color: white;
+    transition: ease-in .3s;
+  }
+  .contact{
+    margin-left: 30vw;
+    
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+    background-color: aqua;
+  }
+ .footer-content h2{
+    font-size: 3em;
+    justify-content: center;
+    margin-left: 3vw;
+ }
+ .footer-content h5{
+   font-size: 1em;
+ }
+ .social-network{
+   display: flex;
+   justify-content: space-evenly;
+   width: 40vw;
+   margin-top: 1em;
+ }
+ .social-network i{
+   font-size: 2em;
+ }
+ html{
+   scroll-behavior: smooth;
+ }
+  
+ 
   
 
   
