@@ -99,7 +99,7 @@ span{
 
 .slider{
     justify-content: center; 
-    width: 800px;
+    width: 50vw;
     height: 500px;
     border-radius: 10px;
     position: absolute;
@@ -112,7 +112,7 @@ span{
   
   .navigation-manual{
     position: absolute;
-    width: 800px;
+    width: 50vw;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -153,7 +153,7 @@ span{
   .navigation-auto{
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 50vw;
     justify-content: center;
     margin-top: 460px;
   }
